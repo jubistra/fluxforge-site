@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — FluxForge</title>
+<meta name="description" content="Get a free quote from FluxForge. Pay securely in Bitcoin — no processor, straight to our wallet.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Flux<span>Forge</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Get in touch</h2>
+  <p class="section-lead">Tell us what you need. We reply within one business day with a fixed quote.</p>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="message" placeholder="What do you need built?" required></textarea>
+    <button type="submit" class="btn">Send message</button>
+  </form>
+  <p style="color:var(--muted); font-size:0.85rem; margin-top:10px;">
+    Form needs a free <a href="https://formspree.io" target="_blank">Formspree</a> ID to go live — see setup notes below.
+  </p>
+</section>
+
+<section>
+  <span class="badge">₿ Bitcoin accepted</span>
+  <h2>Pay in Bitcoin</h2>
+  <p class="section-lead">We accept payment directly to our wallet — no processor, no middleman, no fees beyond standard network fees.</p>
+  <div class="crypto-box">
+    <strong>BTC Address:</strong>
+    <code id="btc-address">bc1qPLACEHOLDER0000000000000000000000000</code>
+    <p style="color:var(--muted); font-size:0.9rem;">Always double-check the address before sending. Send only after receiving an invoice confirmation from us by email.</p>
+    <div class="warn">
+      ⚠️ Setup note: replace the placeholder above with your real BTC receiving address before publishing. Never share a placeholder address with a real customer.
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 FluxForge. All rights reserved.
+</footer>
+</body>
+</html>
